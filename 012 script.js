@@ -41,4 +41,5 @@ const a = prompt('Один из последних просмотренных ф
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
+alert('Переходите в консоль для просмотра объекта')
 console.log(personalMovieDB);
